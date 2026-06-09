@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const newsUI = new NewsPluginUI('news-plugin-container', newsAPI);
 
   // Your NewsAPI key - Get it from https://newsapi.org
-  const NEWS_API_KEY = 'YOUR_API_KEY_HERE';
+  const NEWS_API_KEY = 'd3ff3b790f1743d781b88001c8ce7bf9';
 
   // Load stored opinions
   newsAPI.loadStoredOpinions();
